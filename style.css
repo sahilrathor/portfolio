@@ -149,6 +149,7 @@ body::before{
 #profile{
     width: 300px;
     border-radius: 15px;
+    border: 2px solid black;
 }
 /* home text */
 #home h3{
@@ -158,6 +159,7 @@ body::before{
 #home h2{
     font-family: "Barlow Condensed";
     color: var(--head-font);
+    /* color: #60953d; */
     font-size: 4rem;
 }
 #home p{
@@ -511,7 +513,7 @@ body::before{
     }
     #home h2{
         font-family: "Barlow Condensed";
-        color: var(--head-font);
+        /* color: var(--head-font); */
         font-size: 3.5rem;
     }
     #home p{
